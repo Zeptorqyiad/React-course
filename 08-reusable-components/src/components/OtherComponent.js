@@ -1,6 +1,8 @@
 function OtherComponent() {
 	return (
-		<p>Hello World</p>
+		<div>
+			<p>Hello from React</p>
+		</div>
 	)
 }
 
