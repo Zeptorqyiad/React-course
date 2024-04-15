@@ -1,10 +1,14 @@
-import Person from "./Person"
-import persons from "../data/persons"
+import Person from './Person'
+import persons from '../data/persons'
 
 function Persons() {
-	return persons.map((person) => {
-		return <Person {...person} key={person.id} />
-	})
+   return (
+      <div className="cards">
+         {persons.map((person) => {
+            return <Person {...person} key={person.id} />
+         })}
+      </div>
+   )
 }
 
 export default Persons
