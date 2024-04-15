@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	margin-top: 20px;
+}
+
+button{
+	padding: 15px;
+	font-size: 30px;
+	border-radius: 5px;
+	border: 0;
+	margin: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: #d8d6a6;
+}
