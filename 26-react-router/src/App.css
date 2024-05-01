@@ -2,9 +2,20 @@
    text-align: center;
 }
 
+/* Used by default with NavLink */
+/* .active {
+	color: lightyellow;
+	text-decoration: none;
+} */
+
+.activeLink {
+	color: lightcoral;
+}
+
 a {
    color: lightblue;
    font-size: 35px;
+	text-decoration: none;
 }
 
 nav {
